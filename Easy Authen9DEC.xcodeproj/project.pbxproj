@@ -12,6 +12,10 @@
 		BA17473F1FDBCE7600AD05FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA17473D1FDBCE7600AD05FB /* Main.storyboard */; };
 		BA1747411FDBCE7600AD05FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA1747401FDBCE7600AD05FB /* Assets.xcassets */; };
 		BA1747441FDBCE7600AD05FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA1747421FDBCE7600AD05FB /* LaunchScreen.storyboard */; };
+		BA17474C1FDBD10B00AD05FB /* if_cono_512542.png in Resources */ = {isa = PBXBuildFile; fileRef = BA17474B1FDBD10B00AD05FB /* if_cono_512542.png */; };
+		BA17474E1FDBD2F800AD05FB /* jakob-owens-303060.gif in Resources */ = {isa = PBXBuildFile; fileRef = BA17474D1FDBD2F800AD05FB /* jakob-owens-303060.gif */; };
+		BA1747541FDBDBFC00AD05FB /* ic_lock_48pt.png in Resources */ = {isa = PBXBuildFile; fileRef = BA1747531FDBDBFC00AD05FB /* ic_lock_48pt.png */; };
+		BA1747561FDBDC1100AD05FB /* ic_account_box_48pt.png in Resources */ = {isa = PBXBuildFile; fileRef = BA1747551FDBDC1100AD05FB /* ic_account_box_48pt.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		BA1747401FDBCE7600AD05FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA1747431FDBCE7600AD05FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA1747451FDBCE7600AD05FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA17474B1FDBD10B00AD05FB /* if_cono_512542.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = if_cono_512542.png; sourceTree = "<group>"; };
+		BA17474D1FDBD2F800AD05FB /* jakob-owens-303060.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "jakob-owens-303060.gif"; sourceTree = "<group>"; };
+		BA1747531FDBDBFC00AD05FB /* ic_lock_48pt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_lock_48pt.png; sourceTree = "<group>"; };
+		BA1747551FDBDC1100AD05FB /* ic_account_box_48pt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_account_box_48pt.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 				BA17473B1FDBCE7600AD05FB /* ViewController.swift */,
 				BA17473D1FDBCE7600AD05FB /* Main.storyboard */,
 				BA1747401FDBCE7600AD05FB /* Assets.xcassets */,
+				BA1747531FDBDBFC00AD05FB /* ic_lock_48pt.png */,
+				BA1747551FDBDC1100AD05FB /* ic_account_box_48pt.png */,
+				BA17474D1FDBD2F800AD05FB /* jakob-owens-303060.gif */,
+				BA17474B1FDBD10B00AD05FB /* if_cono_512542.png */,
 				BA1747421FDBCE7600AD05FB /* LaunchScreen.storyboard */,
 				BA1747451FDBCE7600AD05FB /* Info.plist */,
 			);
@@ -123,9 +135,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA1747541FDBDBFC00AD05FB /* ic_lock_48pt.png in Resources */,
+				BA17474C1FDBD10B00AD05FB /* if_cono_512542.png in Resources */,
 				BA1747441FDBCE7600AD05FB /* LaunchScreen.storyboard in Resources */,
 				BA1747411FDBCE7600AD05FB /* Assets.xcassets in Resources */,
+				BA1747561FDBDC1100AD05FB /* ic_account_box_48pt.png in Resources */,
 				BA17473F1FDBCE7600AD05FB /* Main.storyboard in Resources */,
+				BA17474E1FDBD2F800AD05FB /* jakob-owens-303060.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
