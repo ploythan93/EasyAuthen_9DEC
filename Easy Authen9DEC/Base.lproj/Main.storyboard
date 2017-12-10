@@ -40,11 +40,11 @@
                                 <textInputTraits key="textInputTraits" textContentType="password"/>
                             </textField>
                             <imageView userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ic_account_box_48pt.png" translatesAutoresizingMaskIntoConstraints="NO" id="9hZ-Yk-jY1">
-                                <rect key="frame" x="67" y="212" width="240" height="128"/>
+                                <rect key="frame" x="67" y="212" width="56" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ic_lock_48pt.png" translatesAutoresizingMaskIntoConstraints="NO" id="wMy-dY-IYN">
-                                <rect key="frame" x="67" y="332" width="240" height="128"/>
+                                <rect key="frame" x="67" y="341" width="56" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qUR-fq-Dok">
@@ -69,6 +69,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="userTextField" destination="E5B-ey-0Hf" id="obm-Kw-XVw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
