@@ -21,7 +21,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jakob-owens-303060.gif" translatesAutoresizingMaskIntoConstraints="NO" id="kUS-Zn-neq">
                                 <rect key="frame" x="-312.5" y="0.0" width="1000" height="667"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="if_cono_512542.png" translatesAutoresizingMaskIntoConstraints="NO" id="VXv-eK-E9s">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="if_icon-44-sailing-boat-water_316158.png" translatesAutoresizingMaskIntoConstraints="NO" id="VXv-eK-E9s">
                                 <rect key="frame" x="79" y="42" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -33,7 +33,7 @@
                                 <textInputTraits key="textInputTraits" textContentType="username"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7lr-XF-di9">
-                                <rect key="frame" x="153" y="348" width="196" height="30"/>
+                                <rect key="frame" x="153" y="318" width="196" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -44,11 +44,11 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ic_lock_48pt.png" translatesAutoresizingMaskIntoConstraints="NO" id="wMy-dY-IYN">
-                                <rect key="frame" x="67" y="341" width="56" height="61"/>
+                                <rect key="frame" x="67" y="303" width="56" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qUR-fq-Dok">
-                                <rect key="frame" x="148" y="418" width="102" height="57"/>
+                                <rect key="frame" x="148" y="392" width="102" height="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Login"/>
@@ -57,7 +57,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.20000000000000001" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B9L-Mz-Vlj">
-                                <rect key="frame" x="111" y="529" width="153" height="67"/>
+                                <rect key="frame" x="67" y="483" width="267" height="155"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -86,7 +86,7 @@
     <resources>
         <image name="ic_account_box_48pt.png" width="48" height="48"/>
         <image name="ic_lock_48pt.png" width="48" height="48"/>
-        <image name="if_cono_512542.png" width="256" height="256"/>
+        <image name="if_icon-44-sailing-boat-water_316158.png" width="128" height="128"/>
         <image name="jakob-owens-303060.gif" width="1000" height="667"/>
     </resources>
 </document>

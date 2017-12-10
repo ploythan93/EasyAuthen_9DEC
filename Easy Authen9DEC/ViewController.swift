@@ -25,19 +25,37 @@ class ViewController: UIViewController {
     @IBOutlet weak var displayTextField: UILabel!
     
     
-    
     @IBAction func loginButton(_ sender: Any) {
         
         userString = userTextField.text!
         passwordString = passwordTextField.text!
-        
+        //Show Log
         print("Username == \(userString)")
+        print("Password == \(passwordString)")
+        //Check User by Array
+        print("Result == \(dicMemberString[userString])")
+ 
         
-    }
+        
+        if var myCheckPassword = dicMemberString[userString] {
+            
+            //true
+            print("TruePassword == \(myCheckPassword)")
+            
+            if(passwordString == myCheckPassword){
+                displayTextField.text = displayString[3]
+            } else {
+                displayTextField.text = displayString[2]
+            }
+            
+        } else {
+            // false
+        }
+        
+    }//Login Button
     
     
     
-
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

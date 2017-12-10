@@ -16,6 +16,7 @@
 		BA17474E1FDBD2F800AD05FB /* jakob-owens-303060.gif in Resources */ = {isa = PBXBuildFile; fileRef = BA17474D1FDBD2F800AD05FB /* jakob-owens-303060.gif */; };
 		BA1747541FDBDBFC00AD05FB /* ic_lock_48pt.png in Resources */ = {isa = PBXBuildFile; fileRef = BA1747531FDBDBFC00AD05FB /* ic_lock_48pt.png */; };
 		BA1747561FDBDC1100AD05FB /* ic_account_box_48pt.png in Resources */ = {isa = PBXBuildFile; fileRef = BA1747551FDBDC1100AD05FB /* ic_account_box_48pt.png */; };
+		BA4818331FDCEC5400F5DBEF /* if_icon-44-sailing-boat-water_316158.png in Resources */ = {isa = PBXBuildFile; fileRef = BA4818321FDCEC5400F5DBEF /* if_icon-44-sailing-boat-water_316158.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		BA17474D1FDBD2F800AD05FB /* jakob-owens-303060.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "jakob-owens-303060.gif"; sourceTree = "<group>"; };
 		BA1747531FDBDBFC00AD05FB /* ic_lock_48pt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_lock_48pt.png; sourceTree = "<group>"; };
 		BA1747551FDBDC1100AD05FB /* ic_account_box_48pt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_account_box_48pt.png; sourceTree = "<group>"; };
+		BA4818321FDCEC5400F5DBEF /* if_icon-44-sailing-boat-water_316158.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "if_icon-44-sailing-boat-water_316158.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				BA17473B1FDBCE7600AD05FB /* ViewController.swift */,
 				BA17473D1FDBCE7600AD05FB /* Main.storyboard */,
 				BA1747401FDBCE7600AD05FB /* Assets.xcassets */,
+				BA4818321FDCEC5400F5DBEF /* if_icon-44-sailing-boat-water_316158.png */,
 				BA1747531FDBDBFC00AD05FB /* ic_lock_48pt.png */,
 				BA1747551FDBDC1100AD05FB /* ic_account_box_48pt.png */,
 				BA17474D1FDBD2F800AD05FB /* jakob-owens-303060.gif */,
@@ -140,6 +143,7 @@
 				BA1747441FDBCE7600AD05FB /* LaunchScreen.storyboard in Resources */,
 				BA1747411FDBCE7600AD05FB /* Assets.xcassets in Resources */,
 				BA1747561FDBDC1100AD05FB /* ic_account_box_48pt.png in Resources */,
+				BA4818331FDCEC5400F5DBEF /* if_icon-44-sailing-boat-water_316158.png in Resources */,
 				BA17473F1FDBCE7600AD05FB /* Main.storyboard in Resources */,
 				BA17474E1FDBD2F800AD05FB /* jakob-owens-303060.gif in Resources */,
 			);
