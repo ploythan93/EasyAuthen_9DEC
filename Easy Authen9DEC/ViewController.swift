@@ -10,12 +10,30 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    var userString : String = ""
+    var passwordString : String = ""
+    var displayString = ["Have Space Please Fill All Blank","User Flase","Password False","Welcome Member"]
+    var dicMemberString = ["user1":"1234","user2":"12345","user3":"123456"]
     
     
     @IBOutlet weak var userTextField: UITextField!
     
+    @IBOutlet weak var passwordTextField: UITextField!
     
     
+    
+    @IBOutlet weak var displayTextField: UILabel!
+    
+    
+    
+    @IBAction func loginButton(_ sender: Any) {
+        
+        userString = userTextField.text!
+        passwordString = passwordTextField.text!
+        
+        print("Username == \(userString)")
+        
+    }
     
     
     
